@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Christmas Tree Messages 🎄
 
-## Getting Started
+# 크리스마스 트리 메시지 🎄
 
-First, run the development server:
+This project is inspired by and cloned from [Color my Tree!](https://colormytree.me/), a service that allows users to create and share Christmas messages.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+이 프로젝트는 크리스마스 메시지를 만들고 공유할 수 있는 서비스인 [Color my Tree!](https://colormytree.me/)를 클론 코딩한 프로젝트입니다.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+A web application where users can create their own Christmas tree and friends can leave messages that are revealed on Christmas day.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+사용자가 자신만의 크리스마스 트리를 만들고, 친구들이 남긴 메시지를 크리스마스 당일에 확인할 수 있는 웹 애플리케이션입니다.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Features / 기능 소개
 
-## Learn More
+- Create your own unique Christmas tree page / 사용자별 고유한 크리스마스 트리 페이지 생성
+- Interactive Christmas tree with animations / 애니메이션이 있는 인터랙티브한 크리스마스 트리
+- Anonymous message feature for friends / 친구들이 익명으로 메시지를 남길 수 있는 기능
+- Messages remain secret until Christmas day / 크리스마스 당일까지 메시지 내용 비공개
+- Tree sharing functionality / 트리 공유 기능
 
-To learn more about Next.js, take a look at the following resources:
+## Tech Stack / 기술 스택
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Frontend
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Next.js 13+ (React-based framework) / React 기반 프레임워크
+- TypeScript
+- TailwindCSS (Styling) / 스타일링
+- Framer Motion (Animations) / 애니메이션
 
-## Deploy on Vercel
+### Backend
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Next.js API Routes
+- Prisma (ORM)
+- PostgreSQL (Database) / 데이터베이스
+- NextAuth.js (Authentication) / 인증
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Deployment / 배포
+
+- Vercel
+
+## Planned Features / 구현 예정 기능
+
+- [ ] User Authentication (Social Login) / 사용자 인증 (소셜 로그인)
+- [ ] Christmas Tree Customization / 크리스마스 트리 커스터마이징
+- [ ] Message Creation and Storage / 메시지 작성 및 저장
+- [ ] Message Reveal Countdown / 메시지 공개 카운트다운
+- [ ] Tree Sharing Feature / 트리 공유 기능
+- [ ] Responsive Design / 반응형 디자인
+- [ ] Animation Effects / 애니메이션 효과
+
+## Security Considerations / 보안 고려사항
+
+- Environment Variable (.env) Security / 환경 변수 파일 보안
+- Database Access Control / 데이터베이스 접근 권한 관리
+- User Authentication and Authorization / 사용자 인증 및 권한 관리
+- API Endpoint Security / API 엔드포인트 보안
+
+## License / 라이선스
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+이 프로젝트는 MIT 라이선스를 따릅니다 - 자세한 내용은 [LICENSE.md](LICENSE.md) 파일을 참고해주세요.
+
+## Contact / 연락처
+
+Project Link / 프로젝트 링크: [https://github.com/Cillian1225/christmas-tree-messages](https://github.com/Cillian1225/christmas-tree-messages)
