@@ -1,6 +1,6 @@
 # Christmas Tree Messages 🎄
 
-![Tree Preview](https://user-images.githubusercontent.com/...generated-url...)
+![Tree Preview](/public/images/tree-preview.png)
 
 # 크리스마스 트리 메시지 🎄
 
