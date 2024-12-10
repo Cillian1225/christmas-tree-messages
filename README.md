@@ -1,5 +1,7 @@
 # Christmas Tree Messages 🎄
 
+![Tree Preview](https://user-images.githubusercontent.com/...generated-url...)
+
 # 크리스마스 트리 메시지 🎄
 
 This project is inspired by and cloned from [Color my Tree!](https://colormytree.me/), a service that allows users to create and share Christmas messages.
@@ -55,12 +57,14 @@ A web application where users can create their own Christmas tree and friends ca
 - User Authentication and Authorization / 사용자 인증 및 권한 관리
 - API Endpoint Security / API 엔드포인트 보안
 
-## License / 라이선스
+## Credits / 크레딧
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is inspired by / 이 프로젝트는 다음 서비스에서 영감을 받았습니다:
 
-이 프로젝트는 MIT 라이선스를 따릅니다 - 자세한 내용은 [LICENSE.md](LICENSE.md) 파일을 참고해주세요.
+- [Color my Tree!](https://colormytree.me/)
 
-## Contact / 연락처
+## Disclaimer / 면책 조항
 
-Project Link / 프로젝트 링크: [https://github.com/Cillian1225/christmas-tree-messages](https://github.com/Cillian1225/christmas-tree-messages)
+This is a clone project for educational purposes only. All rights belong to their respective owners.
+
+이 프로젝트는 교육 목적으로만 제작된 클론 프로젝트입니다. 모든 권리는 해당 소유자에게 있습니다.
